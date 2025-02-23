@@ -72,6 +72,6 @@ Bu proje, Arduino platformu kullanarak birçok farklı faaliyeti gerçekleştire
 ## İletişim
 Projeye dair sorularınız veya önerileriniz için bana şu şekilde ulaşabilirsiniz:
 - E-posta: mervekrgll44@icloud.com
-- GitHub: https://github.com/merve-karagülle
+- GitHub: https://github.com/merve-karagulle
 
 
