@@ -109,7 +109,19 @@ arduino-embedded-projects/
 └── ...
 ```
 ---
+---
 
+## 📄 Project Documentation
+
+Detailed project reports and system documentation are available in the `docs/` folder.
+
+Included reports:
+- Bluetooth Controlled System
+- Obstacle Avoiding Robot
+- Joystick Controlled Snake Game
+- Three-Axis Robot System
+
+---
 ## 🧠 Concepts Practiced
 
 - Embedded systems programming
