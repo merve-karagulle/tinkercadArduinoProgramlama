@@ -65,11 +65,12 @@ This repository contains hands-on embedded systems experiments, hardware-softwar
 
 ---
 
-
 ## 📁 Project Structure
 
 ```text
 arduino-embedded-projects/
+├── images/
+├── docs/
 ├── basicConcepts.cpp
 ├── bluetoothCompressor.cpp
 ├── burglarAlarm.cpp
@@ -105,21 +106,55 @@ arduino-embedded-projects/
 ├── vehicleParkingSensor.cpp
 ├── workingWithPotentiometers.cpp
 ├── workingWithRgbLed.cpp
-└── ...
+└── README.md
 ```
+
+---
+
+## 📸 Project Preview
+
+### Obstacle Avoiding Robot
+
+![Obstacle Avoiding Robot](images/obstacle-avoiding-robot.png)
+
+---
+
+### Gas Warning System
+
+![Gas Warning System](images/gas-warning-system.png)
+
+---
+
+### Three Direction Robot
+
+![Three Direction Robot](images/three-direction-robot.png)
+
+---
+
+### Bluetooth Compressor System
+
+![Bluetooth Compressor System](images/bluetooth-compressor.png)
+
+---
+
+### Vehicle Parking Sensor
+
+![Vehicle Parking Sensor](images/vehicle-parking-sensor.png)
+
 ---
 
 ## 📄 Project Documentation
 
-Detailed project reports and system documentation are available in the `docs/` folder.
+Detailed project reports and technical documentation are available in the `docs/` folder.
 
-Included reports:
-- Bluetooth Controlled System
-- Obstacle Avoiding Robot
-- Joystick Controlled Snake Game
-- Three-Axis Robot System
+Included documentation:
+- Bluetooth Controlled System Report
+- Obstacle Avoiding Robot Report
+- Joystick Snake Game Report
+- Three-Axis Robot System Report
 
 ---
+
 ## 🧠 Concepts Practiced
 
 - Embedded systems programming
@@ -136,6 +171,8 @@ Included reports:
 ## 📚 Purpose
 
 This repository was created to improve embedded systems development, hardware integration and real-time programming skills through practical Arduino-based applications and experiments.
+
+The projects in this repository represent my hands-on learning journey in embedded systems, robotics and hardware-software integration.
 
 ---
 
