@@ -108,7 +108,6 @@ arduino-embedded-projects/
 └── ...
 ```
 ---
----
 
 ## 📄 Project Documentation
 
