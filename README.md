@@ -1,77 +1,143 @@
-# Tinkercad ile Arduino Programlama Projesi
-Bu proje, Arduino ile birçok faaliyeti ;
-- LED yakma
-- Servomotor kontrolü
-- Mesafe sensörü ile mesafe ölçümü
-- Alarm sistemi
-- Diğer sensörler (örneğin, sıcaklık sensörü, ışık sensörü vb.)
-  
-gerçekleştirmek ve sizlere aktarmak  için oluşturulmuştur.
+# Arduino Embedded Projects
 
-## Başlangıç
+A collection of Arduino and embedded systems projects developed using sensors, motors, LCD displays, LEDs and automation logic.
 
-Bu projeyi çalıştırabilmek için aşağıdaki adımları takip edin.
+This repository contains hands-on embedded systems experiments, hardware-software integration studies and real-time electronics programming practices using Arduino and C++.
 
-### Gereksinimler
+---
 
-- Arduino UNO (veya kullanılan model)
-- Tinkercad hesap
-- Arduino IDE yazılımı
-  
-### Kurulum
+## 🚀 Included Projects
 
-1. Arduino kodunu indirin veya Tinkercad üzerinde projeyi oluşturun.
-2. Arduino'nuzu bilgisayarınıza bağlayın.
-3. Arduino IDE'yi açın ve doğru kartı ve portu seçin.
-4. Kodu yüklemek için 'Yükle' butonuna tıklayın.
+### 🔌 Sensor-Based Projects
+- Distance Sensor Systems
+- Vehicle Parking Sensor
+- Gas Warning System
+- LDR Sensor Applications
+- Temperature Monitoring Studies
 
-### Çalıştırma
+### 💡 LED & Lighting Projects
+- RGB LED Projects
+- Timed LED Systems
+- Button-Controlled LEDs
+- Brightness Control Applications
+- Potentiometer-Based LED Control
 
-Projeyi çalıştırmak için aşağıdaki adımları izleyin:
+### ⚙️ Motor & Automation Projects
+- DC Motor Control
+- Servo Motor Applications
+- Obstacle Avoiding Robot
+- Bluetooth Compressor System
+- Robot Control Experiments
 
-1. Arduino'nuzu bağlayın ve kodu yükleyin.
-2.  Donanımın Başlatılması:
+### 🖥️ Display & Interface Projects
+- LCD Screen Applications
+- Traffic Light Simulation
+- Buzzer Notification Systems
+- Multi-Button Control Systems
 
-Projede kullanılan tüm donanım bileşenlerinin doğru şekilde bağlanması önemlidir. Aşağıdaki adımları takip ederek donanımınızı hazırlayın:
+---
 
-1. **Arduino Bağlantısı:**
-   - Arduino'nuzu bilgisayarınıza bağlayın ve doğru portu seçtiğinizden emin olun.
-   - Arduino'nun bağlı olduğundan emin olmak için Arduino IDE'deki "Araçlar" menüsünden doğru kart modelini ve portu seçin (örneğin, "Arduino Uno" ve "COM3").
+## 🛠️ Technologies Used
 
-2. **Sensör Bağlantısı:**
-   - [Sensör Adı] sensörünü Arduino'ya bağlayın. 
-     - **VCC** pinini Arduino'nun **5V** pinine bağlayın.
-     - **GND** pinini Arduino'nun **GND** pinine bağlayın.
-     - **Sinyal Pin**'ini uygun dijital/analog pini (örneğin, **A0** veya **D2**) bağlayın.
-   
-3. **LED ve Aktüatör Bağlantıları:**
-   - **LED**'i bağlamak için:
-     - LED'in uzun bacağını (anot) Arduino'nun bir dijital pinine bağlayın (örneğin, **D13**).
-     - Kısa bacağını (katot) ise bir direnç aracılığıyla GND'ye bağlayın (örneğin, **220Ω** direnç).
-   - **Motor veya başka aktüatör**ler varsa, onları uygun pinlere bağlayın ve gerekirse güç kaynağını bağlayın.
+- Arduino
+- Embedded C/C++
+- Sensor Integration
+- Serial Communication
+- Electronics & Circuit Design
+- Hardware Automation
 
-4. **Bağlantı Kontrolü:**
-   - Tüm bağlantıları kontrol edin. Gerekirse bağlantıların doğru olduğundan emin olmak için devreyi bir kez gözden geçirin.
+---
 
-5. **Güç Verme:**
-   - Arduino'nuzu bilgisayarınızdan ayırarak dış bir güç kaynağı kullanıyorsanız, Arduino'nuzun güç kaynağını açın (örneğin, 9V pil veya adaptör).
-   - Arduino'nun gücünün doğru şekilde çalıştığından emin olmak için güç göstergelerini kontrol edin (örneğin, LED'ler).
+## 🔌 Hardware Components
 
-6. **Tinkercad Simülasyonu:**
-   - Eğer projeyi Tinkercad üzerinde simüle ediyorsanız, bağlantılarınızı doğru şekilde sanal olarak kurduğunuzdan ve tüm bileşenlerin doğru şekilde çalıştığından emin olun.
-   - Tinkercad simülasyonunu başlatın ve doğru çalıştığını test edin.
+- Arduino UNO / Nano
+- HC-SR04 Distance Sensor
+- Servo Motors
+- DC Motors
+- LDR Sensors
+- Gas Sensors
+- LCD Displays
+- RGB LEDs
+- Buzzers
+- Potentiometers
+- Bluetooth Modules
+- Push Buttons
 
-## Proje Açıklaması
-Bu proje, Arduino platformu kullanarak birçok farklı faaliyeti gerçekleştiren bir sistemdir. Proje, Tinkercad üzerinden simülasyonlar oluşturulmuş ve çeşitli uygulamaları gerçekleştiren Arduino kodlarını içermektedir.
+---
 
-### Özellikler
-- Arduino kartıyla test edilebilir.
-- Tinkercad simülasyonu üzerinden test edilebilir.
-- İçeriği oldukça zengin ve işlevseldir, başlangıç seviyesindeki kullanıcılar için uygun adımlarla ilerler.
+## 📁 Project Structure
 
-## İletişim
-Projeye dair sorularınız veya önerileriniz için bana şu şekilde ulaşabilirsiniz:
-- E-posta: mervekrgll44@icloud.com
-- GitHub: https://github.com/merve-karagulle
+## 📁 Project Structure
 
+```text
+arduino-embedded-projects/
+├── basicConcepts.cpp
+├── bluetoothCompressor.cpp
+├── burglarAlarm.cpp
+├── buttonOperatedTrafficLight.cpp
+├── buzzerProjects.cpp
+├── dcMotor.cpp
+├── distanceSensor.cpp
+├── distanceSensor2.cpp
+├── gasWarningSystem.cpp
+├── increasingTheBrightnessOfTheLed.cpp
+├── lcdScreen2.cpp
+├── lcdScreen3.cpp
+├── ldrSensor.cpp
+├── ldrSensor2.cpp
+├── ldrSensor3.cpp
+├── ldrSensor4.cpp
+├── ledControlWitTwoButton.cpp
+├── lightingLed.cpp
+├── mixedProjects.cpp
+├── myRobotProject.cpp
+├── obstacleAvoidingRobot.cpp
+├── obstacleAvoidingRobot2.cpp
+├── potentiometerRgbStudies.cpp
+├── potentiometerSpeedControl.cpp
+├── rgbLedBurning.cpp
+├── servoMotor.cpp
+├── servoMotor2.cpp
+├── servoMotor3.cpp
+├── temperatureStudies.cpp
+├── threeButtonControl.cpp
+├── turningOnLedWithButton.cpp
+├── turningOnTimedLedWithButton.cpp
+├── vehicleParkingSensor.cpp
+├── workingWithPotentiometers.cpp
+├── workingWithRgbLed.cpp
+└── ...
+```
+---
 
+## 🧠 Concepts Practiced
+
+- Embedded systems programming
+- Real-time hardware interaction
+- Sensor integration
+- Automation logic
+- Motor control systems
+- Hardware-software communication
+- Microcontroller programming
+- Electronics prototyping
+
+---
+
+## 📚 Purpose
+
+This repository was created to improve embedded systems development, hardware integration and real-time programming skills through practical Arduino-based applications and experiments.
+
+---
+
+## 👩‍💻 Developer
+
+Merve Karagülle  
+Software Engineering Student | Robotics & Embedded Systems Enthusiast
+
+---
+
+## 🔗 Links
+
+- GitHub Profile: https://github.com/merve-karagulle
+- Portfolio Website: https://personal-portfolio-website-rust-iota.vercel.app/
+- LinkedIn: https://www.linkedin.com/in/merve-karag%C3%BClle-yazilim/
