@@ -65,7 +65,6 @@ This repository contains hands-on embedded systems experiments, hardware-softwar
 
 ---
 
-## 📁 Project Structure
 
 ## 📁 Project Structure
 
